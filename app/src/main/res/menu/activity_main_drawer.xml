@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_payment"
+            android:icon="@drawable/ic_add_shopping_cart_black_24dp"
+            android:title="Payment" />
+        <item
+            android:id="@+id/nav_product"
+            android:icon="@drawable/ic_redeem_black_24dp"
+            android:title="Product" />
+        <item
+            android:id="@+id/nav_report"
+            android:icon="@drawable/ic_trending_up_black_24dp"
+            android:title="Report" />
+        <item
+            android:id="@+id/nav_receipt"
+            android:icon="@drawable/ic_receipt_black_24dp"
+            android:title="Receipt" />
+    </group>
+
+    <item android:title="Support">
+        <menu>
+            <item
+                android:id="@+id/nav_contact"
+                android:icon="@android:drawable/ic_dialog_email"
+                android:title="Contact us" />
+        </menu>
+    </item>
+
+</menu>
